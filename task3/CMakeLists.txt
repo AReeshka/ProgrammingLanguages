@@ -3,5 +3,5 @@ project(task3)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES rational.h rational.cpp main.cpp)
+set(SOURCE_FILES rational.h rational.cpp)
 add_executable(task3 ${SOURCE_FILES})
