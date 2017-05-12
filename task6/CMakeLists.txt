@@ -4,5 +4,9 @@ project(task6)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES lazy_string.cpp lazy_string.h)
-add_executable(task3 ${SOURCE_FILES})
+add_library(lazy_string ${SOURCE_FILES})
+
+install (TARGETS lazy_string DESTINATION lib)
+
+install(FILES ${SOURCE_FILES} DESTINATION include)
 
