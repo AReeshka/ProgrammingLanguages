@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string>
+#include <mutex>
 
 class lazy_string {
 private:
